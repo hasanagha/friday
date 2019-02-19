@@ -5,7 +5,7 @@ from pprint import pprint
 
 class GoogleAPI:
     def __init__(self):
-        self.API_KEY = 'AIzaSyAqNLVkjxGPS7O7D_X343HH1ppCRfajJnQ'
+        self.API_KEY = 'GOOGLE_API_KEY'
         self.URL = 'https://maps.googleapis.com/maps/api/geocode/json?components=&language=&region=&bounds=&key={}&address={}'
 
     def get_address_details(self, address):
